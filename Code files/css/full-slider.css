@@ -7,29 +7,26 @@
 html,
 body {
     height: 100%;
+    
 }
 
-.collapse.navbar-collapse {
-    color: black;
-}
 .nav {
     margin-top: 65px;
     margin-left: 50px;;
     
 }
-
-li.a:hover {
+.navbar-inverse.brand,.navbar-inverse.nav>li>a:hover  {
     color: #000;
 }
-}
+
 .container {
     background-color: white;
     float: left;
     margin-bottom: 0px;
 }
 
-#bs-example-navbar-collapse-1 {
-    color: black;
+#bs-example-navbar-collapse-1 a:hover {
+    color: #000;
 }
 
 .carousel,
