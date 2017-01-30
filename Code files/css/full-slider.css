@@ -42,6 +42,45 @@ h3 {
     text-align: right;
 }
 
+.logoPic {
+    width: 30%;
+    padding-left: 2%;
+    height: inherit;
+    float: left;
+    background-color: white;
+   
+}
+
+.logoPic#restart {
+    background-color: black;
+}
+.rightBody {
+    float: right;
+    width: 66%;
+    height: inherit;
+    color: black;
+    border-style: solid;
+    border-width: 2px;
+    padding-left: 2%;
+    
+    
+  background : -webkit-linear-gradient(0deg, rgba(204, 224, 244, 1) 0%, rgba(195, 220, 242, 1) 6.41%, rgba(169, 210, 238, 1) 17.06%, rgba(128, 194, 231, 1) 30.66%, rgba(71, 172, 222, 1) 46.49%, rgba(30, 156, 215, 1) 56.74%, rgba(0, 117, 190, 1) 86.52%, rgba(0, 91, 151, 1) 99.44%);
+  background : -webkit-gradient(linear,0% 50% ,100% 50% ,color-stop(0,rgba(204, 224, 244, 1) ),color-stop(0.0641,rgba(195, 220, 242, 1) ),color-stop(0.1706,rgba(169, 210, 238, 1) ),color-stop(0.3066,rgba(128, 194, 231, 1) ),color-stop(0.4649,rgba(71, 172, 222, 1) ),color-stop(0.5674,rgba(30, 156, 215, 1) ),color-stop(0.8652,rgba(0, 117, 190, 1) ),color-stop(0.9944,rgba(0, 91, 151, 1) ));
+  background : -o-linear-gradient(0deg, rgba(204, 224, 244, 1) 0%, rgba(195, 220, 242, 1) 6.41%, rgba(169, 210, 238, 1) 17.06%, rgba(128, 194, 231, 1) 30.66%, rgba(71, 172, 222, 1) 46.49%, rgba(30, 156, 215, 1) 56.74%, rgba(0, 117, 190, 1) 86.52%, rgba(0, 91, 151, 1) 99.44%);
+  background : -ms-linear-gradient(0deg, rgba(204, 224, 244, 1) 0%, rgba(195, 220, 242, 1) 6.41%, rgba(169, 210, 238, 1) 17.06%, rgba(128, 194, 231, 1) 30.66%, rgba(71, 172, 222, 1) 46.49%, rgba(30, 156, 215, 1) 56.74%, rgba(0, 117, 190, 1) 86.52%, rgba(0, 91, 151, 1) 99.44%);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#CCE0F4', endColorstr='#005B97' ,GradientType=0)";
+  background : linear-gradient(90deg, rgba(204, 224, 244, 1) 0%, rgba(195, 220, 242, 1) 6.41%, rgba(169, 210, 238, 1) 17.06%, rgba(128, 194, 231, 1) 30.66%, rgba(71, 172, 222, 1) 46.49%, rgba(30, 156, 215, 1) 56.74%, rgba(0, 117, 190, 1) 86.52%, rgba(0, 91, 151, 1) 99.44%);
+  opacity : 0.58;
+  filter: alpha(opacity=58) progid:DXImageTransform.Microsoft.Alpha(opacity=58) progid:DXImageTransform.Microsoft.gradient(startColorstr='#CCE0F4',endColorstr='#005B97' , GradientType=1);
+}
+
+.rightBody {
+    border-bottom: 5px black;
+}
+
+
+
+
 /* Background images are set within the HTML using inline CSS, not here */
 
 .fill {
@@ -61,3 +100,4 @@ footer {
     margin: 50px 0;
     padding-top: 5px;
 }
+
