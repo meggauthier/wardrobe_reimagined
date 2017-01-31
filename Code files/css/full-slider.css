@@ -42,18 +42,23 @@ h3 {
     text-align: right;
 }
 
-.logoPic {
-    width: 30%;
+.wrapper {
+   
+    
+}
+
+#logoPic {
+     width: 30%;
     padding-left: 2%;
     height: inherit;
     float: left;
     background-color: white;
-   
 }
 
-.logoPic#restart {
-    background-color: black;
+#logoPic#restart {
+    border-bottom: solid black;
 }
+
 .rightBody {
     float: right;
     width: 66%;
